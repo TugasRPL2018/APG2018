@@ -102,7 +102,7 @@ class M_Operator extends CI_Model {
 		$this->db->where('username', $id);
 		$this->db->delete($this->table);
 	}
-	
+	//andri fahmi
 	
 
 }

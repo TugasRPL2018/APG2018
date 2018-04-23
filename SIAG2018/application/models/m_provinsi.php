@@ -106,5 +106,5 @@ class M_provinsi extends CI_Model {
 		return $this->db->get('provinsi');
     }
 
-
+	//andri fahmi
 }

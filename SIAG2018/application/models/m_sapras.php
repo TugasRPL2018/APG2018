@@ -149,7 +149,7 @@ class M_Sapras extends CI_Model {
 		$query = $this->db->get();
 		return $query;
 	}
-	
+	//andri fahmi
 	
 
 }

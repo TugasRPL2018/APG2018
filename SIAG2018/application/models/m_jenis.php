@@ -105,5 +105,5 @@ class M_Jenis extends CI_Model {
 	function  get_jenis() {  //funtion menampilkan semua provinsi
 		return $this->db->get('jenis');
     }
-
+	//andri fahmi
 }

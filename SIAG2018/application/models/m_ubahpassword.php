@@ -104,6 +104,6 @@ class M_ubahpassword extends CI_Model {
 		$this->db->where('username', $id);
 		$this->db->delete($this->table);
 	}
-
+	//andri fahmi
 
 }

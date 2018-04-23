@@ -105,5 +105,5 @@ class M_kota extends CI_Model {
 	function  get_kota() {  //funtion menampilkan semua provinsi
 		return $this->db->get('kota');
     }
-
+	//andri fahmi
 }

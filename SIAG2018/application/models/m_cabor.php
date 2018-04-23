@@ -37,7 +37,7 @@ class M_Cabor extends CI_Model {
 				}
 
 				if(count($this->column_search) - 1 == $i) //last loop
-					$this->db->group_end(); //close bracket
+					$this->db->group_end(); 
 			}
 			$i++;
 		}
@@ -105,5 +105,5 @@ class M_Cabor extends CI_Model {
 	function  get_cabor() {  //funtion menampilkan semua provinsi
 		return $this->db->get('cabor');
     }
-
+	//andrifahmi
 }
